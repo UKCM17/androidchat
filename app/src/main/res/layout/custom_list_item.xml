@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F3FBF4"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profileImage"
+        android:layout_width="76dp"
+        android:layout_height="76dp"
+        android:layout_margin="5dp"
+        android:padding="5dp"
+        android:src="@drawable/baseline_person_2_24"
+        app:civ_border_color="@color/black"
+        app:civ_circle_background_color="#035E08"
+        app:civ_border_width="2dp"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        >
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:text="Unisoft Corner"
+            android:textColor="#075952"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:background="#F3FBF4"
+            android:id="@+id/lastmsg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="6dp"
+            android:text="Shyam Nagar Roorkee\nUttarakhand"
+            android:textColor="#1A5602"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>
